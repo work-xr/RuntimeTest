@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">老化测试</string>
+ 
+    <string-array name="preset_list">
+        <item>"96小时"</item>
+	    <item>"48小时"</item>
+        <item>"24小时"</item>
+        <item>"16小时"</item>
+        <item>"8小时"</item>
+        <item>"4小时"</item>
+        <item>"2小时"</item>
+    </string-array>
+   
+	<!-- the following part is for test name display in RuntimeTestMain -->
+    <string name="name_refresh">界面刷新</string>
+    <string name="name_speaker">喇叭</string>
+    <string name="name_reboot">重启</string>
+    <string name="name_aging_tesing">老化测试中...</string>
+    <string name="name_front_camera_tesing">前置相机测试中...</string>
+    <string name="front_camera_capture_failed">前置相机拍照失败</string>
+    <string name="name_aging_testing_finished">老化测试已经完成</string>
+    <string name="button_pass">通过</string>
+    <string name="button_fail">失败</string>
+
+    <string name="name_camera">相机</string>
+    <string name="name_vibrator">马达</string>
+    <string name="buttontext_selectall">选择所有</string>
+    <string name="buttontext_clearall">清除所有</string>
+    
+    <string name="buttontext_starttest">开始</string>
+    <string name="buttontext_setting">设置</string>
+    <string name="setting_title">设置</string>
+    <string name="buttontext_ok">确认</string>
+    <string name="buttontext_cancel">取消</string>
+    <string name="charged_not_connected_msg">不在充电中!请连接充电器.</string>
+
+    <string name="battery_level_too_low">电池电量低于20%, 等待充电到20%</string>
+
+    <string name="name_desp_new">请先选择测试时间, 再按设置按钮选择测试项, 最后按开始按钮开始老化测试</string>
+    <string name="runtime_result">测试结果:</string>
+    <string name="cases_select">选择测试项:</string>
+    <string name="buttontext_save">保存</string>
+    <string name="buttontext_save_tip">您至少选择一个测试项目.</string>
+
+    <string name="runtime_finished_failed">老化测试未完成.</string>
+</resources>

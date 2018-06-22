@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RuntimeTest</string>
+ 
+    <string-array name="preset_list">
+        <item>"96H Run-in"</item>
+	    <item>"48H Run-in"</item>
+        <item>"24H Run-in"</item>
+        <item>"16H Run-in"</item>
+        <item>"8H Run-in"</item>
+        <item>"4H Run-in"</item>
+        <item>"2H Run-in"</item>
+    </string-array>
+   
+	<!-- the following part is for test name display in RuntimeTestMain -->
+	<string name="name_desp">RunTime Test:select what you want test,then press Start. V1.0_20170814</string>
+    <string name="name_refresh">Refresh</string>
+    <string name="name_speaker">Speaker</string>
+    <string name="name_reboot">Reboot</string>
+    <string name="name_aging_tesing">aging testing...</string>
+    <string name="name_front_camera_tesing">front camera testing...</string>
+    <string name="front_camera_capture_failed">front camera capture failed</string>
+    <string name="name_aging_testing_finished">aging test finished</string>
+    <string name="button_pass">pass</string>
+    <string name="button_fail">fail</string>
+
+    <string name="name_camera">Camera</string>
+    <string name="name_vibrator">Vibrator</string>
+    <string name="buttontext_selectall">Select All</string>
+    <string name="buttontext_clearall">Clear All</string>
+    
+    <string name="buttontext_starttest">Start</string>
+    <string name="buttontext_setting">Setting</string>
+    <string name="setting_title">RuntimTest setting</string>
+    <string name="buttontext_ok">Ok</string>
+    <string name="buttontext_cancel">Cancel</string>
+    <string name="charged_not_connected_msg">AC Charger not connected! Please connect the charger first.</string>
+    <string name="battery_level_too_low">Battery level lower than 20%, wait for charging a while</string>
+
+   
+    <string name="name_desp_new">first select the duration, then press settings button to select test item, finally press start button to test.</string>
+	<string name="runtime_result">Result:</string>
+	<string name="cases_select">select cases which want to test:</string>
+	<string name="buttontext_save">save</string>
+	<string name="buttontext_save_tip">You should select one case.</string>
+
+    <string name="pref_entry_value_on">On</string>
+
+    <string name="runtime_finished_failed">Runtime test failed.</string>
+</resources>

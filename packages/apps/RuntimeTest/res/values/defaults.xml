@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * this file contains the default test time/counts for run time test case.
+ */
+-->
+<resources>
+    <integer-array name="preset_battery_level" translatable="false">
+	<item>20</item>   <!-- 48 hours:40% -->
+        <item>20</item>   <!-- 24 hours:40% -->
+        <item>20</item>   <!-- 16 hours:40% -->
+        <item>20</item>   <!-- 8 hours:40% -->
+        <item>20</item>   <!-- 4 hours:40% -->
+        <item>20</item>  <!-- 2 hours:40% -->
+    </integer-array>
+    
+    <!-- preset is 4:2h -->
+    <integer name="def_current_preset">5</integer>
+
+
+    <!-- 1:need test  0:not test.  需要与RuntimeTestConfig.java里的mCheckboxID对应-->
+    <integer-array name="case_test_flag" translatable="false">
+        <item>1</item>  <!-- test refresh screen -->
+        <item>1</item>  <!-- test speaker -->
+        <item>1</item>  <!-- test vibrator -->
+        <item>1</item>  <!-- test camera -->
+    </integer-array>
+</resources>

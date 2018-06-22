@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView android:text="@string/name_desp_new"
+		android:id="@+id/textView_desp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="16sp"
+		android:padding = "5dp">
+    </TextView>
+
+	<LinearLayout
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:paddingTop="5dp"
+		android:layout_gravity="center"
+		android:orientation="horizontal">
+			    <Spinner 
+                    android:id="@+id/presetSpinnerInMain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="?android:attr/listPreferredItemHeight"
+                    android:drawSelectorOnTop="true"/>		    	    
+	</LinearLayout>
+
+	<!-- control button:fulltest/part test,stop -->
+	<LinearLayout  android:id="@+id/layout_ctl_button"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_gravity="center"
+		android:paddingTop="5dp"
+		android:orientation="horizontal">
+		<Button
+			android:text="@string/buttontext_starttest"
+			android:id="@+id/button_run"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingTop = "5dp"
+			android:paddingBottom = "5dp"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp"
+			>
+
+		</Button>
+		<Button
+			android:text="@string/buttontext_setting"
+			android:id="@+id/button_setting"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingTop = "5dp"
+			android:paddingBottom = "5dp"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp">
+
+		</Button>
+	</LinearLayout>
+
+    <!-- Runin flag display -->
+    <TextView android:id="@+id/textView_runin"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="16sp"
+		android:padding="10dp">
+    </TextView>
+</LinearLayout>
+</ScrollView>

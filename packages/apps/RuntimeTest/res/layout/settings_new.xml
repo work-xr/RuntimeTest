@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"  >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	    
+    <TextView
+		android:text="@string/cases_select"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding = "10dp">
+    </TextView>
+            
+        <include layout="@layout/testselect" />
+
+	<!-- selcet all/clear all button -->
+	<LinearLayout  android:id="@+id/layout_select_clear_all"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_gravity="center"
+		android:orientation="horizontal">
+		<Button
+			android:text="@string/buttontext_selectall"
+			android:id="@+id/button_selectall"
+			android:padding="5dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button
+			android:text="@string/buttontext_clearall"
+			android:id="@+id/button_clearall"
+			android:padding="5dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+
+	<!-- selcet default/ok/cancel all button
+	<LinearLayout
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:paddingTop="10dp"
+		android:layout_gravity="center"
+		android:orientation="horizontal">
+			    <Spinner 
+                    android:id="@+id/presetSpinner"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="?android:attr/listPreferredItemHeight"
+                    android:drawSelectorOnTop="true"/>		    	    
+	</LinearLayout-->
+	
+	<!-- control button:fulltest/part test,stop
+	<LinearLayout  android:id="@+id/layout_ctl_button"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:paddingBottom="0dp"
+		android:layout_gravity="center"
+		android:orientation="horizontal">
+		<Button android:text="@string/buttontext_ok" android:id="@+id/button_ok" android:layout_width="100dp" android:layout_height="wrap_content"></Button>
+		<Button android:text="@string/buttontext_cancel" android:id="@+id/button_cancel" android:layout_width="100dp" android:layout_height="wrap_content"></Button>		    	    
+	</LinearLayout-->
+</LinearLayout>
+</ScrollView>

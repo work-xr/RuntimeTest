@@ -1,0 +1,98 @@
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <!-- 3 tests are put into one line,to make a group: reboot_s3_battery, cpu_emmc_memory,audio_video_lcd, 2d_3d_camera,-->
+	<!-- group: reboot,s3, vibrator -->
+	<LinearLayout  android:id="@+id/layout_group_reboot_s3_battery"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:paddingLeft="10dp" >
+
+		<LinearLayout  android:id="@+id/layout_refresh"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:padding="5dp"
+		    android:orientation="horizontal">	    
+		    <CheckBox
+				android:id="@+id/checkBox_refresh"
+				android:checked="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</CheckBox>
+			<TextView
+				android:id="@+id/textView_refresh"
+				android:text="@string/name_refresh"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>
+
+		<LinearLayout  android:id="@+id/layout_speaker"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:padding="5dp"
+		    android:orientation="horizontal">
+		    <CheckBox
+				android:id="@+id/checkBox_speaker"
+				android:checked="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</CheckBox>
+			<TextView
+				android:id="@+id/textView_speaker"
+				android:text="@string/name_speaker"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>
+
+		<LinearLayout  android:id="@+id/layout_vibrator"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:padding="5dp"
+		    android:orientation="horizontal">
+		    <CheckBox android:id="@+id/checkBox_vibrator"
+				android:checked="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</CheckBox>
+			<TextView android:id="@+id/textView_vibrator"
+				android:text="@string/name_vibrator"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>
+		<LinearLayout  android:id="@+id/layout_camera"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:orientation="horizontal">
+			<CheckBox android:id="@+id/checkBox_camera"
+				android:checked="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</CheckBox>
+			<TextView android:id="@+id/textView_camera"
+				android:text="@string/name_camera"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>
+	</LinearLayout>
+
+
+<!--LinearLayout  android:id="@+id/layout_group_flash_test"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:paddingLeft="10dp">
+  		<LinearLayout  android:id="@+id/layout_flash_test"
+		    android:layout_width="150dp" 
+		    android:layout_height="wrap_content" 
+		    android:orientation="horizontal">
+		    <Button android:id="@+id/button_flash_test"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_flash_test" ></Button>
+		</LinearLayout>	
+</LinearLayout-->
+		
+</LinearLayout>
